@@ -1,3 +1,4 @@
 # AdvancedTools
-<img width="482" height="286" alt="image" src="https://github.com/user-attachments/assets/f393b248-068e-4dc2-a51e-1caebd29fa84" />
-<img width="479" height="288" alt="image" src="https://github.com/user-attachments/assets/1861e0ef-a1fa-41b1-b3cf-547bdf0101a8" />
+<img width="480" height="289" alt="image" src="https://github.com/user-attachments/assets/9955a266-b5ee-48a5-9dc4-bc4b32de3cec" />
+<img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/462cf5bb-5bfd-4c50-bee7-ae0fa8961ccf" />
+
