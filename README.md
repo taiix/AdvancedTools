@@ -48,6 +48,9 @@ First, let's start with the Manhattan Distance. In Figure 2, we can see the numb
 
 
 # Theta*
+
+Theta* algorithm extends the A* algorithm that I used and makes it faster and smoother. The algorithm uses Line of Sight to determine if there is a straight line between two points. If the parent node can "see" the next node without obstacles, Theta* connects them directly. Althought they are similar and Theta* is built upon A*, they have some differences. They handle parent relationships differently. A* uses grid based approach where the parent must be a neightbour node, while Theta* allows any node that has a clear line of sight to be a parent. A new parent is only assigned when line of sight is blocked, which enables Theta* to generate shorter, more natural paths compared to the strictly grid based paths of A*.
+
 <div align="center">
   <figure>
     <img width="481" height="288" alt="image" src="https://github.com/user-attachments/assets/5f12d696-cd2d-4346-8b8c-085cd962f937" />
