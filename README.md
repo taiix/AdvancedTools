@@ -16,31 +16,49 @@ h =  Mathf.Sqrt(Mathf.Pow((currentNode.x - endNode.x), 2) + Mathf.Pow((currentNo
 
 ### Difference between Manhattan and Euclidean
 In my implementation, I use both distance calculation to compare them and see which one is better and faster in this situation.
-<figure>
-  <img width="1575" height="880" alt="image" src="https://github.com/user-attachments/assets/d02f4906-f477-4ce9-a214-37c1b64a0b5d" />
-  <figcaption><em>Note:</em> The snowmans are the agents. There are multiple agents, they just have the same position.</figcaption>
-</figure>
+<div align="center">
+  <figure>
+    <img width="1575" height="880" alt="image" src="https://github.com/user-attachments/assets/d02f4906-f477-4ce9-a214-37c1b64a0b5d" />
+    <figcaption><em>Figure 1:</em> <em>Note:</em> The snowmans are the agents. There are multiple agents, they just have the same position.</figcaption>
+  </figure>
+</div>
+
 
 
 
 # AdvancedTools
-<figure>
-  <img width="481" height="288" alt="image" src="https://github.com/user-attachments/assets/5f12d696-cd2d-4346-8b8c-085cd962f937" />
-  <figcaption>Chart comparing path length across agents.</figcaption>
-</figure>
+<div align="center">
+  <figure>
+    <img width="481" height="288" alt="image" src="https://github.com/user-attachments/assets/5f12d696-cd2d-4346-8b8c-085cd962f937" />
+      <br>
+        <figcaption><em>Figure 2:</em> Chart comparing path length across agents.</figcaption>
+      </br>
+  </figure>
+</div>
 
-<figure>
-  <img width="479" height="287" alt="image" src="https://github.com/user-attachments/assets/8fbc8709-99c4-49c8-ab74-c6f8af650d31" />
-  <figcaption>Computation time results for A* vs Theta*.</figcaption>
-</figure>
+<div align="center">
+  <figure>
+    <img width="479" height="287" alt="image" src="https://github.com/user-attachments/assets/8fbc8709-99c4-49c8-ab74-c6f8af650d31" />
+      <br>
+        <figcaption><em>Figure 3:</em> Computation time results for A* vs Theta*.</figcaption>
+      </br>
+  </figure>
+</div>
 
-<figure>
-  <img width="547" height="286" alt="image" src="https://github.com/user-attachments/assets/765c2c6d-50bc-4943-a51f-ecad5650528a" />
-  <figcaption>Movement time comparison between algorithms.</figcaption>
-</figure>
+<div align="center">
+  <figure>
+    <img width="547" height="286" alt="image" src="https://github.com/user-attachments/assets/765c2c6d-50bc-4943-a51f-ecad5650528a" />
+      <br>
+        <figcaption><em>Figure 4:</em> Movement time comparison between algorithms.</figcaption>
+      </br>
+  </figure>
+</div>
 
-<figure>
-  <img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/75fc09f0-5d50-4405-9f13-f098064a46ea" />
-  <figcaption>Average speed results for agents.</figcaption>
-</figure>
-
+<div align="center">
+  <figure>
+    <img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/75fc09f0-5d50-4405-9f13-f098064a46ea" />
+     <br>
+       <figcaption>Average speed results for agents.</figcaption>
+    </br>
+  </figure>
+</div>
