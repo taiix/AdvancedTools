@@ -16,22 +16,43 @@ h =  Mathf.Sqrt(Mathf.Pow((currentNode.x - endNode.x), 2) + Mathf.Pow((currentNo
 
 ### Difference between Manhattan and Euclidean
 In my implementation, I use both distance calculation to compare them and see which one is better and faster in this situation.
+
 <div align="center">
   <figure>
     <img width="1575" height="880" alt="image" src="https://github.com/user-attachments/assets/d02f4906-f477-4ce9-a214-37c1b64a0b5d" />
     <figcaption><em>Figure 1:</em> <em>Note:</em> The snowmans are the agents. There are multiple agents, they just have the same position.</figcaption>
   </figure>
 </div>
+<br>
+
+First, let's start with the Manhattan Distance. In Figure 2, we can see the number of nodes each agent traveled and the time required to reach the end node. Because Manhattan distance restrict movement to only four directions (up, down, left and right), agents often take more steps to reach the goal compared to Euclidean distance, which allows eight directions. This result paths that are longer, increases the node count and overall movement time. For example, the first agent needed to traverse 47 nodes to reach the goal, while with Euclidean distance (Figure 3) the same agent required only 35 nodes, with a difference in traversal time of nearly one second.
+
+<br>
+<div align="center">
+  <figure>
+    <img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/75fc09f0-5d50-4405-9f13-f098064a46ea" />
+     <br>
+       <figcaption><em>Figure 2:</em> Manhattan Distance used by the agents, the amount of nodes the the agent has and the time spent to reach the end goal. </figcaption>
+    </br>
+  </figure>
+</div>
+<br>
+<div align="center">
+  <figure>
+    <img width="547" height="286" alt="image" src="https://github.com/user-attachments/assets/765c2c6d-50bc-4943-a51f-ecad5650528a" />
+      <br>
+        <figcaption><em>Figure 3:</em> Eucledian Distance used by the agents, the amount of nodes the the agent has and the time spent to reach the end goal.</figcaption>
+      </br>
+  </figure>
+</div>
 
 
-
-
-# AdvancedTools
+# Theta*
 <div align="center">
   <figure>
     <img width="481" height="288" alt="image" src="https://github.com/user-attachments/assets/5f12d696-cd2d-4346-8b8c-085cd962f937" />
       <br>
-        <figcaption><em>Figure 2:</em> Chart comparing path length across agents.</figcaption>
+        <figcaption><em>Figure 3:</em> Chart comparing path length across agents.</figcaption>
       </br>
   </figure>
 </div>
@@ -40,25 +61,11 @@ In my implementation, I use both distance calculation to compare them and see wh
   <figure>
     <img width="479" height="287" alt="image" src="https://github.com/user-attachments/assets/8fbc8709-99c4-49c8-ab74-c6f8af650d31" />
       <br>
-        <figcaption><em>Figure 3:</em> Computation time results for A* vs Theta*.</figcaption>
+        <figcaption><em>Figure 4:</em> Computation time results for A* vs Theta*.</figcaption>
       </br>
   </figure>
 </div>
 
-<div align="center">
-  <figure>
-    <img width="547" height="286" alt="image" src="https://github.com/user-attachments/assets/765c2c6d-50bc-4943-a51f-ecad5650528a" />
-      <br>
-        <figcaption><em>Figure 4:</em> Movement time comparison between algorithms.</figcaption>
-      </br>
-  </figure>
-</div>
 
-<div align="center">
-  <figure>
-    <img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/75fc09f0-5d50-4405-9f13-f098064a46ea" />
-     <br>
-       <figcaption>Average speed results for agents.</figcaption>
-    </br>
-  </figure>
-</div>
+
+
