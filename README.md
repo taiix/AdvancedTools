@@ -58,7 +58,7 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
 
 <div align="center">
   <figure>
-    <img width="928" height="595" alt="image" src="https://github.com/user-attachments/assets/a2d8b029-1e92-4252-8233-f1660ae9891f" />
+    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/a2d8b029-1e92-4252-8233-f1660ae9891f" />
       <br>
         <figcaption><em>Figure 3:</em> Chart comparing path length across agents.</figcaption>
       </br>
@@ -67,7 +67,7 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
 
 <div align="center">
   <figure>
-    <img width="928" height="595" alt="image" src="https://github.com/user-attachments/assets/c9eb5acc-625d-49f7-b8f5-987ac116ea5a" />
+    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/c9eb5acc-625d-49f7-b8f5-987ac116ea5a" />
       <br>
         <figcaption><em>Figure 4:</em> Computation time results for A* vs Theta*.</figcaption>
       </br>
