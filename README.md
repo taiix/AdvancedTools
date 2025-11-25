@@ -74,5 +74,7 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
   </figure>
 </div>
 
+<img width="914" height="546" alt="image" src="https://github.com/user-attachments/assets/63df25a7-b9fc-4a33-a7c7-6cfbe11d50a4" />
+<img width="914" height="546" alt="image" src="https://github.com/user-attachments/assets/1c5068e0-25ce-4192-9c74-d80ab44a21af" />
 
 
