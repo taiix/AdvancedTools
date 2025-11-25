@@ -19,8 +19,8 @@ In my implementation, I use both distance calculation to compare them and see wh
 
 <div align="center">
   <figure>
-    <img width="1575" height="880" alt="image" src="https://github.com/user-attachments/assets/d02f4906-f477-4ce9-a214-37c1b64a0b5d" />
-    <figcaption><em>Figure 1:</em> <em>Note:</em> The snowmans are the agents. There are multiple agents, they just have the same position.</figcaption>
+    <img width="1576" height="883" alt="image" src="https://github.com/user-attachments/assets/c5273890-e0c6-4095-a1b5-3b904eaf662e" />
+      <figcaption><em>Figure 1:</em> <em>Note:</em> The snowmans are the agents. There are multiple agents, they just have the same position.</figcaption>
   </figure>
 </div>
 <br>
