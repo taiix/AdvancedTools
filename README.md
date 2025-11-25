@@ -27,10 +27,15 @@ In my implementation, I use both distance calculation to compare them and see wh
 
 First, let's start with the Manhattan Distance. In Figure 2, we can see the number of nodes each agent traveled and the time required to reach the end node. Because Manhattan distance restrict movement to only four directions (up, down, left and right), agents often take more steps to reach the goal compared to Euclidean distance, which allows eight directions. This result paths that are longer, increases the node count and overall movement time. For example, the first agent needed to traverse 47 nodes to reach the goal, while with Euclidean distance (Figure 3) the same agent required only 35 nodes, with a difference in traversal time of nearly one second.
 
+
+
+
+
+
 <br>
 <div align="center">
   <figure>
-    <img width="480" height="287" alt="image" src="https://github.com/user-attachments/assets/75fc09f0-5d50-4405-9f13-f098064a46ea" />
+    <img width="762" height="459" alt="image" src="https://github.com/user-attachments/assets/511679b7-f8ef-43ad-a241-11caecfb853e" />
      <br>
        <figcaption><em>Figure 2:</em> Manhattan Distance used by the agents, the amount of nodes the the agent has and the time spent to reach the end goal. </figcaption>
     </br>
@@ -39,7 +44,7 @@ First, let's start with the Manhattan Distance. In Figure 2, we can see the numb
 <br>
 <div align="center">
   <figure>
-    <img width="547" height="286" alt="image" src="https://github.com/user-attachments/assets/765c2c6d-50bc-4943-a51f-ecad5650528a" />
+    <img width="762" height="459" alt="image" src="https://github.com/user-attachments/assets/fca615dd-f7f3-46bf-8a90-45b8d9de43a9" />
       <br>
         <figcaption><em>Figure 3:</em> Eucledian Distance used by the agents, the amount of nodes the the agent has and the time spent to reach the end goal.</figcaption>
       </br>
@@ -53,7 +58,7 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
 
 <div align="center">
   <figure>
-    <img width="481" height="288" alt="image" src="https://github.com/user-attachments/assets/5f12d696-cd2d-4346-8b8c-085cd962f937" />
+    <img width="928" height="595" alt="image" src="https://github.com/user-attachments/assets/a2d8b029-1e92-4252-8233-f1660ae9891f" />
       <br>
         <figcaption><em>Figure 3:</em> Chart comparing path length across agents.</figcaption>
       </br>
@@ -62,13 +67,12 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
 
 <div align="center">
   <figure>
-    <img width="479" height="287" alt="image" src="https://github.com/user-attachments/assets/8fbc8709-99c4-49c8-ab74-c6f8af650d31" />
+    <img width="928" height="595" alt="image" src="https://github.com/user-attachments/assets/c9eb5acc-625d-49f7-b8f5-987ac116ea5a" />
       <br>
         <figcaption><em>Figure 4:</em> Computation time results for A* vs Theta*.</figcaption>
       </br>
   </figure>
 </div>
-
 
 
 
