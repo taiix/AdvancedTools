@@ -65,11 +65,15 @@ public class Theta_Agent : MonoBehaviour
     {
         if (awaitingPathOnly)
         {
-            pathTimer.Stop();
-            lastPathTimeMs = pathTimer.ElapsedMilliseconds;
-
+            
             if (result.success)
             {
+                pathTimer.Stop();
+                lastPathTimeMs = pathTimer.ElapsedMilliseconds;
+
+                
+                UnityEngine.Debug.Log($"Theta* Pathfinding Time: {lastPathTimeMs:F2} ");
+
                 // Path quality metrics
                 lastPathLength = 0f;
                 lastTurnCount = 0;
@@ -87,8 +91,8 @@ public class Theta_Agent : MonoBehaviour
                     }
                 }
 
-                UnityEngine.Debug.Log($"Theta* Pathfinding Time (calc only): {lastPathTimeMs} ms");
-                UnityEngine.Debug.Log($"Path Length: {lastPathLength:F2}, Turns: {lastTurnCount}");
+                //UnityEngine.Debug.Log($"Theta* Pathfinding Time (calc only): {lastPathTimeMs} ms");
+                //UnityEngine.Debug.Log($"Path Length: {lastPathLength:F2}, Turns: {lastTurnCount}");
 
                 // Now measure movement
                 awaitingPathOnly = false;
@@ -131,7 +135,7 @@ public class Theta_Agent : MonoBehaviour
     {
         moveTimer.Stop();
 
-        double moveMs = moveTimer.Elapsed.TotalMilliseconds;
+        double moveMs = moveTimer.Elapsed.TotalSeconds;
         double moveSec = moveTimer.Elapsed.TotalSeconds;
         double avgSpeed = moveSec > 0 ? lastPathLength / moveSec : 0.0;
 
@@ -191,6 +195,8 @@ public class Theta_Agent : MonoBehaviour
             UnityEngine.Debug.LogError($"Failed to prepare CSV file at '{csvPath}': {ex.Message}");
         }
     }
+
+
 
     private void AppendCsvRow(
         bool success,

@@ -25,13 +25,11 @@ public static class PathMetricsLogger
         EnsureHeader();
     }
 
-    public static void Append(string agentName,
-                              bool success,
+    public static void Append(
                               long pathTimeMs,
                               double moveTimeMs,
                               double avgSpeed,
                               float pathLength,
-                              int turnCount,
                               int nodeCount,
                               Vector3 start,
                               Vector3 end)
@@ -44,8 +42,6 @@ public static class PathMetricsLogger
         {
             timestamp,
             Escape(scene),
-            Escape(agentName),
-            success ? "true" : "false",
             start.x.ToString(ci),
             start.y.ToString(ci),
             start.z.ToString(ci),
@@ -54,7 +50,6 @@ public static class PathMetricsLogger
             end.z.ToString(ci),
             nodeCount.ToString(ci),
             pathLength.ToString(ci),
-            turnCount.ToString(ci),
             pathTimeMs.ToString(ci),
             moveTimeMs.ToString("F3", ci),
             avgSpeed.ToString("F6", ci)
