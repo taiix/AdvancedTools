@@ -62,7 +62,7 @@ On Figure 4, we can see that the path nodes that are needed to create a path fro
       </br>
   </figure>
 </div>
-
+<br>
 <div align="center">
   <figure>
     <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/c9eb5acc-625d-49f7-b8f5-987ac116ea5a" />
@@ -87,7 +87,7 @@ The 4th agent(using A*), which is the one with the longest path has 549 nodes wi
       </br>
   </figure>
 </div>
-
+<br>
 <div align="center">
   <figure>
     <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/63df25a7-b9fc-4a33-a7c7-6cfbe11d50a4" />
