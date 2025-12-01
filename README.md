@@ -52,6 +52,7 @@ First, let's start with the Manhattan Distance. In Figure 2, we can see the numb
 
 Theta* algorithm extends the A* algorithm that I used and makes it faster and smoother. The algorithm uses Line of Sight to determine if there is a straight line between two points. If the parent node can "see" the next node without obstacles, Theta* connects them directly. Althought they are similar and Theta* is built upon A*, they have some differences. They handle parent relationships differently. A* uses grid based approach where the parent must be a neightbour node, while Theta* allows any node that has a clear line of sight to be a parent. A new parent is only assigned when line of sight is blocked, which enables Theta* to generate shorter, more natural paths compared to the strictly grid based paths of A*.
 
+On Figure 4, we can see that the path nodes that are needed to create a path from A to B for agent 1 using A* are 35 nodes and it needs 9.148 seconds to reach the end goal. However, Figure 5 shows results for Theta* which using the same setting, the nodes that are visited are only 7 and the move time is 8.999 which is a bit faster than the path that A* creates. 
 
 <div align="center">
   <figure>
@@ -71,21 +72,25 @@ Theta* algorithm extends the A* algorithm that I used and makes it faster and sm
   </figure>
 </div>
 
+In the previous section, we conclude that Theta* uses less nodes and creates a bit shorter paths than A*. Next two figures, 6 and 7, we will compare the computation time of both algorithms. Let consider the first agent that has the closest end goal and the last agent with the furthest end goal. 
+
 <div align="center">
   <figure>
-    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/63df25a7-b9fc-4a33-a7c7-6cfbe11d50a4" />
-     <br>
-        <figcaption><em>Figure 6:</em> Computation time results Theta*.</figcaption>
+    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/1c5068e0-25ce-4192-9c74-d80ab44a21af" />
+       <br>
+        <figcaption><em>Figure 6:</em> Computation time results for A*.</figcaption>
       </br>
   </figure>
 </div>
 
 <div align="center">
   <figure>
-    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/1c5068e0-25ce-4192-9c74-d80ab44a21af" />
-       <br>
-        <figcaption><em>Figure 7:</em> Computation time results for A*.</figcaption>
+    <img width="728" height="495" alt="image" src="https://github.com/user-attachments/assets/63df25a7-b9fc-4a33-a7c7-6cfbe11d50a4" />
+     <br>
+        <figcaption><em>Figure 7:</em> Computation time results Theta*.</figcaption>
       </br>
   </figure>
 </div>
+
+
 
