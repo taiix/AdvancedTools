@@ -71,8 +71,13 @@ On Figure 4, we can see that the path nodes that are needed to create a path fro
       </br>
   </figure>
 </div>
+<br>
 
-In the previous section, we conclude that Theta* uses less nodes and creates a bit shorter paths than A*. Next two figures, 6 and 7, we will compare the computation time of both algorithms. Let consider the first agent that has the closest end goal and the last agent with the furthest end goal. 
+In the previous section, we conclude that Theta* uses less nodes and creates a bit shorter paths than A*. Next two figures, 6 and 7, are comparing the computation time of both algorithms. 
+Let's consider the first agent that has the closest end goal and the last agent with the furthest end goal. From Figure 6 we know that agent 1 (using A*) has a path that goes through 140 nodes and the computation time that the algorithm needed to compute the path was 44 milliseconds. The same settings apply for the Theta* path, but in that case on Figure 7, the same route has only 17 nodes but the computation time is 63 milliseconds which is more than the A*.
+The 4th agent(using A*), which is the one with the longest path has 549 nodes with computation time of 262 milliseconds, compared to Theta* with only 32 nodes but longer computation time of 341 milliseconds.
+
+<br>
 
 <div align="center">
   <figure>
@@ -92,5 +97,7 @@ In the previous section, we conclude that Theta* uses less nodes and creates a b
   </figure>
 </div>
 
+### Conclusion
+From all of the graphs and tests, we can conclude that based on the desired result, a different algorithm can be used. If we aim for optimization and faster results, A* is the best choise, but if a smoother, closer and more natural looking path is required, then Theta* is the better solution.
 
 
